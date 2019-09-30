@@ -1,0 +1,30 @@
+@import 'src/styles/mixins';
+@import 'src/styles/variables';
+
+.root-chat-component {
+	@include flex(column, flex-start, stretch);
+	flex: 1;
+	color: $color-white;
+	background-color: $color-blue;
+	.messages-window {
+		overflow-y: scroll;
+		height: 600px;
+		color: $color-dark-grey;
+		margin: 24px;
+		background-color: $color-white;
+	}
+	.controls {
+		@include flex(row, flex-start, center);
+		margin: 24px;
+		.controls-text {
+			height: 100px;
+			width: 80%;
+			resize: none;
+		}
+		.controls-button {
+			height: 100px;
+			width: 15%;
+			margin-left: auto;
+		}
+	}
+}
