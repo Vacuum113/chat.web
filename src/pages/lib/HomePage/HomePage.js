@@ -7,7 +7,6 @@ export default {
     ChatComponent
   },
   data () {
-    return {
-    }
+    return {}
   }
 }
