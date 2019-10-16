@@ -16,10 +16,7 @@
     "vuex": "^3.0.1"
   },
   "devDependencies": {
-    "stylelint": "^11.0.0",
-    "stylelint-config-recommended-scss": "^4.0.0",
-    "stylelint-scss": "^3.11.1",
-    "stylelint-webpack-plugin": "^1.0.1",
+    "@fortawesome/fontawesome-free": "^5.11.2",
     "@vue/cli-plugin-babel": "^3.11.0",
     "@vue/cli-plugin-eslint": "^3.11.0",
     "@vue/cli-service": "^3.11.0",
@@ -30,6 +27,10 @@
     "lint-staged": "^8.1.5",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.1.0",
+    "stylelint": "^11.0.0",
+    "stylelint-config-recommended-scss": "^4.0.0",
+    "stylelint-scss": "^3.11.1",
+    "stylelint-webpack-plugin": "^1.0.1",
     "vue-template-compiler": "^2.6.10"
   },
   "gitHooks": {
