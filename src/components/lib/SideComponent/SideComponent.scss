@@ -1,11 +1,34 @@
 @import 'src/styles/mixins';
 @import 'src/styles/variables';
-.root-side-component {
-  width: $side-max-width;
+
+.root-side-component{
+  @include flex(row, flex-end, stretch);
   height: 100%;
   color: $color-white;
+  width: 350px;
+}
+
+.pannel-account{
+  height: 100%;
   background-color: $color-blue;
   z-index: 10;
-  margin-left: 200px;
-  @include flex(row, flex-end, stretch);
+  width: $side-max-width;
+}
+
+.side-toggle{
+  width: 50px;
+  height: 50px;
+  z-index: 10;
+  margin-left: auto;
+  padding: 0;
+  text-decoration: none;
+  user-select: none;
+  background: $color-red;
+}
+
+a.side-toggle:hover{
+    background: rgb(232,95,76);
+}
+a.side-toggle:active{
+     background: rgb(152,15,0);
 }

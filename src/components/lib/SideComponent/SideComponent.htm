@@ -1,4 +1,9 @@
 <div class="root-side-component">
-    <SideToggleComponent />
-    Panel Account
+    <a v-on:click="handleOpen" class="side-toggle">
+        <i v-if="isClicked == false">>></i>
+        <i v-else><<</i>
+    </a>
+    <div v-if="isClicked == false" class="pannel-account">
+        Panel Account
+    </div>
 </div>

@@ -1,10 +1,12 @@
-import { SideToggleComponent } from 'src/components'
-
 export default {
-  components: {
-    SideToggleComponent
-  },
   data () {
-    return {}
+    return {
+      isClicked: false
+    }
+  },
+  methods: {
+    handleOpen: function () {
+      this.isClicked = !this.isClicked
+    }
   }
 }
